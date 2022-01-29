@@ -1,0 +1,33 @@
+﻿@model WebApplication1.Models.Tutorial
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div>
+    <h1>Tutorial Entry</h1>
+    <hr />
+</div>
+<table>
+    <tr>
+        <td>Tutorial Id</td>
+        <td><input type="text"  value=""  asp-for="TutorialId"/></td>
+    </tr>
+    <tr>
+        <td>Tutorial Name</td>
+        <td><input type="text"  value="" asp-for="TutorialName" /></td>
+    </tr>
+    <tr>
+        <td>Tutorial Description</td>
+        <td><input type="text"  value="" asp-for="TutorialDesc"/></td>
+    </tr>
+    <tr>
+        <td>Tutorial Published </td>
+        <td><input type="text"  value="" asp-for="Published"/></td>
+    </tr>
+    <tr>
+        <td>Tutorial fees</td>
+        <td><input type="text" value="" asp-for="Fees" /></td>
+    </tr>
+    </table>
+     <td><input type="submit" value="Save"/></td>
